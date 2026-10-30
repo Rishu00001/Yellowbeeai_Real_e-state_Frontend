@@ -38,7 +38,7 @@ export default function AppRoutes() {
         <Route path="/contact" element={<Contact />} />
 
         <Route path="/properties" element={<PropertyListing />} />
-        <Route path="/properties/:id" element={<PropertyDetailsn />} />
+        <Route path="/properties/:id" element={<PropertyDetails />} />
 
         <Route path="/agents" element={<AgentListing />} />
         <Route path="/add-listing" element={<AddListing />} />
